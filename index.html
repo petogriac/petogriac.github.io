@@ -47,13 +47,11 @@
             </p>
             <!-- Single button -->
             <div class="btn-group">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Action <span class="caret"></span>
-                </button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">A</button>
                 <ul class="dropdown-menu">
-                    <li><a href="#">A</a></li>
-                    <li><a href="#">B</a></li>
-                    <li><a href="#">C</a></li>
+                    <li onclick="$('button').text('A')">A</li>
+                    <li onclick="$('button').text('B')">B</li>
+                    <li onclick="$('button').text('C')">C</li>
                 </ul>
             </div>
         </div>

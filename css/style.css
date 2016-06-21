@@ -22,8 +22,3 @@
     font-style: normal;
 
 }
-
-#stroke-style, #stroke-pattern, #solid, #dot, #dash, #dash-dot, #dash-dot-dot{
-    font-family: 'font-annotationsregular';
-    font-size: 18px;
-}

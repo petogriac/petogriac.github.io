@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<metadata>
+Created by FontForge 20160407 at Tue Jun 21 10:24:04 2016
+ By Jimmy Wärting
+Copyright peter.griac 2016
+</metadata>
+<defs>
+<font id="font-annotations" horiz-adv-x="7899" >
+  <font-face 
+    font-family="font-annotations"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="2048"
+    panose-1="0 0 4 0 0 0 0 0 0 0"
+    ascent="1638"
+    descent="-410"
+    cap-height="585"
+    bbox="68 0 7606 1365"
+    underline-thickness="102"
+    underline-position="153"
+    unicode-range="U+0020-25FC"
+  />
+<missing-glyph horiz-adv-x="748" 
+d="M68 0v1365h544v-1365h-544zM136 68h408v1229h-408v-1229z" />
+    <glyph glyph-name=".notdef" horiz-adv-x="748" 
+d="M68 0v1365h544v-1365h-544zM136 68h408v1229h-408v-1229z" />
+    <glyph glyph-name="glyph1" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="glyph2" horiz-adv-x="682" 
+ />
+    <glyph glyph-name="space" unicode=" " horiz-adv-x="3510" 
+ />
+    <glyph glyph-name="A" unicode="A" 
+d="M292 292v293h7314v-293h-7314z" />
+    <glyph glyph-name="B" unicode="B" 
+d="M292 292v293h293v-293h-293zM878 292v293h292v-293h-292zM1462 292v293h293v-293h-293zM2048 292v293h292v-293h-292zM2633 292v293h293v-293h-293zM3218 292v293h292v-293h-292zM3803 292v293h293v-293h-293zM4388 292v293h293v-293h-293zM4974 292v293h292v-293h-292z
+M5558 292v293h293v-293h-293zM6144 292v293h292v-293h-292zM6729 292v293h293v-293h-293zM7314 292v293h292v-293h-292z" />
+    <glyph glyph-name="C" unicode="C" 
+d="M292 292v293h878v-293h-878zM1462 292v293h878v-293h-878zM2633 292v293h877v-293h-877zM3803 292v293h878v-293h-878zM4974 292v293h877v-293h-877zM6144 292v293h878v-293h-878zM7314 292v293h292v-293h-292z" />
+    <glyph glyph-name="D" unicode="D" 
+d="M292 292v293h878v-293h-878zM1462 292v293h293v-293h-293zM2048 292v293h878v-293h-878zM3218 292v293h292v-293h-292zM3803 292v293h878v-293h-878zM4974 292v293h292v-293h-292zM5558 292v293h878v-293h-878zM6729 292v293h293v-293h-293zM7314 292v293h292v-293h-292z
+" />
+    <glyph glyph-name="E" unicode="E" 
+d="M292 292v293h878v-293h-878zM1462 292v293h293v-293h-293zM2048 292v293h292v-293h-292zM2633 292v293h877v-293h-877zM3803 292v293h293v-293h-293zM4388 292v293h293v-293h-293zM4974 292v293h877v-293h-877zM6144 292v293h292v-293h-292zM6729 292v293h293v-293h-293z
+M7314 292v293h292v-293h-292z" />
+    <glyph glyph-name="uni00A0" unicode="&#xa0;" horiz-adv-x="3510" 
+ />
+    <glyph glyph-name="uni2000" unicode="&#x2000;" horiz-adv-x="682" 
+ />
+    <glyph glyph-name="uni2001" unicode="&#x2001;" horiz-adv-x="1365" 
+ />
+    <glyph glyph-name="uni2002" unicode="&#x2002;" horiz-adv-x="682" 
+ />
+    <glyph glyph-name="uni2003" unicode="&#x2003;" horiz-adv-x="1365" 
+ />
+    <glyph glyph-name="uni2004" unicode="&#x2004;" horiz-adv-x="455" 
+ />
+    <glyph glyph-name="uni2005" unicode="&#x2005;" horiz-adv-x="341" 
+ />
+    <glyph glyph-name="uni2006" unicode="&#x2006;" horiz-adv-x="227" 
+ />
+    <glyph glyph-name="uni2007" unicode="&#x2007;" horiz-adv-x="227" 
+ />
+    <glyph glyph-name="uni2008" unicode="&#x2008;" horiz-adv-x="170" 
+ />
+    <glyph glyph-name="uni2009" unicode="&#x2009;" horiz-adv-x="273" 
+ />
+    <glyph glyph-name="uni200A" unicode="&#x200a;" horiz-adv-x="75" 
+ />
+    <glyph glyph-name="uni202F" unicode="&#x202f;" horiz-adv-x="273" 
+ />
+    <glyph glyph-name="uni205F" unicode="&#x205f;" horiz-adv-x="341" 
+ />
+    <glyph glyph-name="uni25FC" unicode="&#x25fc;" horiz-adv-x="250" 
+d="M0 0z" />
+  </font>
+</defs></svg>

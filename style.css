@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'font-annotation-webfont';
+  src: url('font-annotation-webfont.eot');
+  src: url('font-annotation-webfont.woff2') format('woff2'),
+       url('font-annotation-webfont.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'font-annotations';
+  src: url('font-annotations.woff') format('woff'),
+       url('font-annotations.ttf') format('truetype'),
+       url('font-annotations.svg#font-annotations') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#stroke-style, #stroke-pattern, #solid, #dot, #dash, #dash-dot, #dash-dot-dot{
+    font-family: 'font-annotation-webfont', 'font-annotations';
+    font-size: 18px;
+}

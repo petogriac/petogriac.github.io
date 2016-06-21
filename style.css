@@ -9,14 +9,12 @@
 
 @font-face {
   font-family: 'font-annotations';
-  src: url('font-annotations.woff') format('woff'),
-       url('font-annotations.ttf') format('truetype'),
-       url('font-annotations.svg#font-annotations') format('svg');
+  src: url('font-annotations.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 #stroke-style, #stroke-pattern, #solid, #dot, #dash, #dash-dot, #dash-dot-dot{
-    font-family: 'font-annotation-webfont', 'font-annotations';
+    font-family: 'font-annotations','font-annotation-webfont';
     font-size: 18px;
 }

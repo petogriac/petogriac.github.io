@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'font-annotation-webfont';
-  src: url('../font-annotation-webfont.eot');
-  src: url('../font-annotation-webfont.woff2') format('woff2'),
-       url('../font-annotation-webfont.eot?#iefix') format('embedded-opentype');
+  src: url('fonts/font-annotation-webfont.eot');
+  src: url('fonts/font-annotation-webfont.woff2') format('woff2'),
+       url('fonts/font-annotation-webfont.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'font-annotations';
-  src: url('../font-annotations.ttf') format('truetype');
+  src: url('fonts/font-annotations.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }

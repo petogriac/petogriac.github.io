@@ -14,11 +14,16 @@
         <style type="text/css">
         body{
         font-family: 'font-annotationsregular';
+        padding: 50px;
+        }
+        .plainText{
+            font-family: sans-serif;
         }
         </style>
     </head>
     <body>
         <div id="strokeStyleAttr">
+            <p class="plainText"> Not Working select for Mac </p>
             <label for="stroke-pattern">Pattern:</label>
             <select>
                 <!-- The letters A, B, C, D, E represent the line types graphics in the FontAnnotation font -->
@@ -29,7 +34,7 @@
                 <option value="dash-dot-dot">E</option>
             </select>
             <br>
-            <br>
+            <p class="plainText">Loading custom fonts is working fine though, it is just a problem of loading the custom fonts as options in the select:</p>
             <p>
                 A
             </p>
@@ -46,12 +51,15 @@
                 E
             </p>
             <!-- Single button -->
+            <br>
+            <p class="plainText">Working when used as a bootstrap dropdown button</p>
+            <label>Pattern:</label>
             <div class="btn-group">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">A</button>
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span id="butText">A</span><span class="caret"></span></button>
                 <ul class="dropdown-menu">
-                    <li onclick="$('button').text('A')">A</li>
-                    <li onclick="$('button').text('B')">B</li>
-                    <li onclick="$('button').text('C')">C</li>
+                    <li onclick="$('#butText').text('A')">A</li>
+                    <li onclick="$('#butText').text('B')">B</li>
+                    <li onclick="$('#butText').text('C')">C</li>
                 </ul>
             </div>
         </div>

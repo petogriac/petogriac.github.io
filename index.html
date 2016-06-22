@@ -9,20 +9,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
         <link rel="stylesheet" href="css/style.css" />
-        <style type="text/css">
-        body{
-        font-family: 'font-annotationsregular';
-        padding: 50px;
-        }
-        select{
-            background-color : white; 
-        }
-        .plainText{
-            font-family: sans-serif;
-        }
-        </style>
     </head>
     <body>
         <div id="strokeStyleAttr">
@@ -58,11 +45,24 @@
             <p class="plainText">Working when used as a bootstrap dropdown button</p>
             <label>Pattern:</label>
             <div class="btn-group">
-                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span id="butText">A</span><span class="caret"></span></button>
-                <ul class="dropdown-menu">
-                    <li onclick="$('#butText').text('A')">A</li>
-                    <li onclick="$('#butText').text('B')">B</li>
-                    <li onclick="$('#butText').text('C')">C</li>
+                <button type="button" class="btn btn-default dropdown-toggle pattern-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span id="butText">A</span><span class="caret"></span></button>
+                <ul class="dropdown-menu pattern-dropdown">
+                    <li class="dropdown" onclick="$('#butText').text('A')"><a>A</a></li>
+                    <li class="dropdown" onclick="$('#butText').text('B')"><a>B</a></li>
+                    <li class="dropdown" onclick="$('#butText').text('C')"><a>C</a></li>
+                    <li class="dropdown" onclick="$('#butText').text('D')"><a>D</a></li>
+                    <li class="dropdown" onclick="$('#butText').text('E')"><a>E</a></li>
+                </ul>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" id="visibility-dropdown" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"> Pattern <b class="caret"></b></a>
+                        <ul id="visibility-menu" class="dropdown-menu">
+                            <li><a href="#toggle_annotation_display">A</a> </li>
+                            <li><a href="#toggle_interface_display">B</a> </li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>

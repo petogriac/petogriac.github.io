@@ -22,3 +22,16 @@
     font-style: normal;
 
 }
+
+body{
+    padding: 50px;
+}
+.pattern-dropdown{
+font-family: 'font-annotationsregular';
+}
+select{
+background-color : white;
+}
+.plainText{
+font-family: sans-serif;
+}

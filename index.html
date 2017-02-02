@@ -1,70 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>VIRL Editor</title>
-        <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/style.css" />
-    </head>
-    <body>
-        <div id="strokeStyleAttr">
-            <p class="plainText"> Not Working select for Mac </p>
-            <label for="stroke-pattern">Pattern:</label>
-            <select>
-                <!-- The letters A, B, C, D, E represent the line types graphics in the FontAnnotation font -->
-                <option value="solid">&#65;</option>
-                <option value="dot">&#66;</option>
-                <option value="dash">C</option>
-                <option value="dash-dot">D</option>
-                <option value="dash-dot-dot">E</option>
-            </select>
-            <br>
-            <p class="plainText">Loading custom fonts is working fine though, it is just a problem of loading the custom fonts as options in the select:</p>
-            <p>
-                A
-            </p>
-            <p>
-                B
-            </p>
-            <p>
-                C
-            </p>
-            <p>
-                D
-            </p>
-            <p>
-                E
-            </p>
-            <!-- Single button -->
-            <br>
-            <p class="plainText">Working when used as a bootstrap dropdown button</p>
-            <label>Pattern:</label>
-            <div class="btn-group">
-                <button type="button" class="btn btn-default dropdown-toggle pattern-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span id="butText">A</span><span class="caret"></span></button>
-                <ul class="dropdown-menu pattern-dropdown">
-                    <li class="dropdown" onclick="$('#butText').text('A')"><a>A</a></li>
-                    <li class="dropdown" onclick="$('#butText').text('B')"><a>B</a></li>
-                    <li class="dropdown" onclick="$('#butText').text('C')"><a>C</a></li>
-                    <li class="dropdown" onclick="$('#butText').text('D')"><a>D</a></li>
-                    <li class="dropdown" onclick="$('#butText').text('E')"><a>E</a></li>
-                </ul>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse navbar-responsive-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a href="#" id="visibility-dropdown" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"> Pattern <b class="caret"></b></a>
-                        <ul id="visibility-menu" class="dropdown-menu">
-                            <li><a href="#toggle_annotation_display">A</a> </li>
-                            <li><a href="#toggle_interface_display">B</a> </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </body>
+<head>
+<title>Page Title</title>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<script type="text/javascript">
+	$.ajax({
+	method: "POST",
+  contentType: "application/json;charset=UTF-8",
+  url: "https://hr.pantheon.tech/cxf/accounts/login",
+  data: {  }
+}).done(function( msg ) {
+    alert( "Data Saved: " + msg );
+  });
+	
+</script>
+</body>
 </html>
